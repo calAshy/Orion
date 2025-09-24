@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url(./Fonts/ttf/JetBrainsMono-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url(./Fonts/ttf/JetBrainsMono-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url(./Fonts/ttf/JetBrainsMono-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +56,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'JetBrains Mono' monospace;
+  background-color: #121212;
+}
+
+h1 {
+  font-family: 'JetBrains Mono';
+  font-weight: 700;
+  color: white;
+}
+
+h2{
+  font-family: 'JetBrains Mono';
+  font-weight: 500;
+  color: white;
+}
+
+h3{
+  font-family: 'JetBrains Mono';
+  font-weight: 500;
+  color: white;
+}
+
+h5 {
+  font-family: 'JetBrains Mono';
+  font-weight: 300;
+  color: white;
+}
+
+p{
+  font-family: 'JetBrains Mono';
+  font-weight: 300;
+  color: white;
 }
