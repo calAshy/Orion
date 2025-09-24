@@ -1,3 +1,42 @@
 .ButtonDesign{
+    position: relative;
     background-color: #121212;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 48px;
+    font-size: 14px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.ButtonDesign::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    padding: 2px; /*Thickness of gradient border!*/
+    background: linear-gradient(45deg, #F6B93C, #F89940, #EB4872, #843191, #544297);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0)content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    z-index: -1;
+    transition: all 1.5s ease;
+}
+
+.ButtonDesign::after{
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border-radius: 6px;
+    background: #121212;
+    z-index: -1; 
+}
+
+.ButtonDesign:hover::before {
+    background: linear-gradient(-45deg, #F6B93C, #F89940, #EB4872, #843191, #544297);
 }
