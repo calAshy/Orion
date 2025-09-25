@@ -1,4 +1,5 @@
-import HeroImg from "../Images/HomeHeroImg.jpg"
+import HeroImg from "../Images/HomeHeroImg.jpg";
+import ApolloEngine from "../Images/ApolloEngine.jpg";
 import './Home.css';
 import BoxesIcon from "../Icons/BoxesIcon";
 import GearIcon from "../Icons/GearIcon";
@@ -60,15 +61,28 @@ const handleClick = () => {
                 </div>
             </div>
         </div>
-
-        <div className="AlwaysStrivingCTA">
-            <h3>ALWAYS STRIVING FOR BETTER</h3>
-            <p>At AeroNode, we are always on the lookout for new challenges that will allow us to refine our services even more. Get in touch with us to see how we can deliver expertly designed demonstrations of systems found in an aircraft that you work with. 
-            </p>
-            <div className="ButtonLocation">
-                <PrimaryButton ButtonText="LEARN MORE" onClick={handleClick}/>
+        <div className="AlwaysStrivingContainer">
+            <div className="AlwaysStrivingCTA">
+                <h3>ALWAYS STRIVING FOR BETTER</h3>
+                <p>At AeroNode, we are always on the lookout for new challenges that will allow us to refine our services even more. Get in touch with us to see how we can deliver expertly designed demonstrations of systems found in an aircraft that you work with. 
+                </p>    
+                <div className="ButtonLocation">
+                    <PrimaryButton ButtonText="LEARN MORE" onClick={handleClick}/>
+                </div>  
             </div>
         </div>
+        
+        <div className="PrecisionQualityContainer">
+            <div className="PrecisionQualityContainerIMG">
+                <img className="EngineImg" src={ApolloEngine} alt="Static render of Starship Raptor Engine." />
+            </div>
+            <div className="PrecisionQualityContainerTXT">
+                <h3>PRECISION QUALITY</h3>
+                <p>All of our models and diagrams are created using certified documentation sourced from industry partners. Our design team turn these references intto clean, tutor-able demonstrations of real world mechanisms.</p>
+            </div>        
+        </div>
+
+
         
         <Footer />
     </div>
