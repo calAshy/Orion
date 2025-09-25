@@ -5,6 +5,7 @@ import GearIcon from "../Icons/GearIcon";
 import GraphIcon from "../Icons/GraphIcon";
 import PuzzleIcon from "../Icons/PuzzleIcon";
 import PrimaryButton from "../components/PrimaryButton.js";
+import Footer from "../components/Footer.js";
 
 
 function Home() {
@@ -64,8 +65,12 @@ const handleClick = () => {
             <h3>ALWAYS STRIVING FOR BETTER</h3>
             <p>At AeroNode, we are always on the lookout for new challenges that will allow us to refine our services even more. Get in touch with us to see how we can deliver expertly designed demonstrations of systems found in an aircraft that you work with. 
             </p>
+            <div clasName="ButtonLocation">
             <PrimaryButton ButtonText="LEARN MORE" onClick={handleClick}/>
+            </div>
         </div>
+        
+        <Footer />
     </div>
   );
 }

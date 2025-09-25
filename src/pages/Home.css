@@ -77,3 +77,12 @@
     margin-top: 80px;
     padding: 0 48px;
 }
+
+.ButtonLocation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid;
+    border-color: red;
+}
