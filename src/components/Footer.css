@@ -1,0 +1,40 @@
+.FooterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  border: 3px solid;
+  border-color: red;
+}
+
+.LogoSocialsContainer{
+  border: 2px solid;
+  border-color: aqua;
+  width: 2fr;
+  padding-left: 24px;
+}
+
+.FooterLogo {
+  width: 50px;
+  height: auto;
+}
+
+.FooterNavContainer{
+  display: flex;
+  flex-direction: row;
+  width: 1fr;
+  border: 2px solid;
+  border-color: aqua;
+  padding-right: 24px;
+}
+
+.NavColumn{
+  color: white;
+  text-decoration: none;
+}
+
+.NavColumnUL{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'JetBrains Mono';
+}
