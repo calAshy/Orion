@@ -64,7 +64,7 @@ const handleClick = () => {
             <h3>ALWAYS STRIVING FOR BETTER</h3>
             <p>At AeroNode, we are always on the lookout for new challenges that will allow us to refine our services even more. Get in touch with us to see how we can deliver expertly designed demonstrations of systems found in an aircraft that you work with. 
             </p>
-            <PrimaryButton ButtonText="Button?" onClick={handleClick}/>
+            <PrimaryButton ButtonText="LEARN MORE" onClick={handleClick}/>
         </div>
     </div>
   );
