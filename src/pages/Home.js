@@ -20,8 +20,8 @@ const handleClick = () => {
         <div className="HeroContainer">
             <img className="HeroImg" src={HeroImg} alt="Background img of heli" />
             <div className="HeroContent">
-                <h1>ORION TRAINING SOLTIONS</h1>
-                <h5>High-definition interactive training assets for aviation engineers</h5>
+                <h1 className="HeroTXT">ORION TRAINING SOLTIONS</h1>
+                <h5 className="HeroTXT">High-definition interactive training assets for aviation engineers</h5>
             </div>
         </div>
         <div className="IntroText">

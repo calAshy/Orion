@@ -12,11 +12,34 @@
   border-color: aqua;
   width: 2fr;
   padding-left: 24px;
+  justify-content: center;
 }
 
 .FooterLogo {
   width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.LogoSlogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavIconContainer {
+  border: 2px solid;
+  border-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavIcon {
+  fill: white;
+  width: 24px;
   height: auto;
+  padding: 0 6px;
 }
 
 .FooterNavContainer{
@@ -37,4 +60,10 @@
   text-decoration: none;
   list-style: none;
   font-family: 'JetBrains Mono';
+}
+
+.FooterMetaContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
 }
