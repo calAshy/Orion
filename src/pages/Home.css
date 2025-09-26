@@ -74,8 +74,6 @@
 }
 
 .AlwaysStrivingContainer {
-    border: 2px solid;
-    border-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,8 +83,6 @@
 .AlwaysStrivingCTA{
     padding: 0 48px;
     width: 500px;
-    border: 2px solid;
-    border-color: aqua;
 }
 
 .ButtonLocation {
